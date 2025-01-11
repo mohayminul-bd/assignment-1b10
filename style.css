@@ -21,6 +21,12 @@
     opacity: 0.8;
     margin-top: 16px;
 }
+.btn-primary:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+    background-color: #94e6c0;
+}
 p{
     opacity: 0.7;
 }
@@ -44,6 +50,12 @@ p{
     border: 1px solid black;
     padding: 10px 15px 10px 15px;
     border-radius: 8px;
+}
+.nav-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+    background-color: #C6E4D6;
 }
 .header-div{
     font-size: 22px;
@@ -221,6 +233,12 @@ th{
     text-align: center;
     margin: 20px 0px;
 }
+.donate-box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+    background-color: #C6E4D6;
+}
 .bg{
     background-color: #C6E4D6;
 }
@@ -271,6 +289,12 @@ th{
     background-color: #006A50;
     padding: 0px 15px;
     margin-left: -5px;
+}
+.btn-subscribe:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+    background-color: #76be9d;
 }
 
 /* footer section */
