@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* share style */
+.fira-sans-thin{
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.btn-primary{
+    font-size: 12px;
+    color: white;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    font-weight: bold ;
+    padding: 10px 24px 10px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(7, 64, 17);
+    opacity: 0.8;
+    margin-top: 16px;
+}
+p{
+    opacity: 0.7;
+}
+.center{
+    text-align: center;
+}
+.full-body{
+    background-color: rgb(243, 243, 243);
+    width: 1120px auto;
+    padding: 20px 100px;
+    
+}
+  /* header style */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.nav-btn{
+    color: #006A50;
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+}
+.header-div{
+    font-size: 22px;
+    font: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+}
+.header-title{
+    line-height: 50px;
+}
+.header-title > h3{
+    opacity: 0.4;
+}
+
+/* pillars section */
+.pillars-section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pillars-section > h1 {
+    margin-bottom: 20px;
+    font: bold;
+}
+.pillars-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.pillers-card{
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+.pillers-card > h4{
+    font: bold;
+    padding: 10px 0px;
+}
+.pillers-card > img {
+    width: 40px;
+    left: 14px;
+    top: 2px;
+}
+
+.future-containar{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.Future-card{
+    width: 350px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+}
+.blu{
+    background: rgba(84, 144, 245, 0.2);
+}
+.green{
+    background: rgb(198, 228, 214);
+}
+.orange{
+    background: rgb(247, 235, 207);
+}
+
+/* section yunus */
+.yunus{
+    background-image: url('assets/quote-bg.png');
+    padding: 40px 20px 40px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+.yunus > h4{
+    margin:8px 0px ;
+}
+
+/* section opinion */
+
+.opinion-container{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+.opinion-section > h1 {
+    font-size: 24px;
+    font: bold;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid rgb(197, 195, 195);
+    padding: 15px 10px;
+}
+th{
+    background-color: #C6E4D6;
+}
+.agree{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 8px;
+    align-items: center;
+}
+
+/* news section */
+.section-news > h1{
+    font-size: 28px;
+    font: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.news-container{
+    display: flex;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 44px;
+    margin-top: 30px;
+    gap: 32px;
+    align-items: center;
+}
+.satellite-img{
+    border-radius: 24px;
+}
+.news-title > h1{
+    font: 24px;
+    font: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.news-title, div > img{
+    margin-bottom: 8px;
+}
+.news-title, p{
+    margin-bottom: 10px;
+}
+
+/* section donate */
+.donate-section > h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.donate-box-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.donate-box{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 34px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.bg{
+    background-color: #C6E4D6;
+}
+.input-amount{
+    width: 900px;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(255, 255, 255);
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    border-radius: 12px;
+}
+.from-box{
+    text-align: center;
+}
+/* subscribe section */
+.subscribe-section{
+    
+}
