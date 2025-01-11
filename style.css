@@ -240,5 +240,41 @@ th{
 }
 /* subscribe section */
 .subscribe-section{
-    
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    margin-top: 30px;
 }
+.subscribe-section > h1{
+    font-size: 28px;
+    font: bold;
+    margin-bottom: 30px;
+}
+.subscribe{
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(255, 255, 255);
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px 0px 0px 8px;
+}
+.subscribe-btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    padding: 0px 15px;
+    margin-left: -5px;
+    text-align: center;
+    align-items: center;
+}
+/* .input-box{
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+} */
