@@ -132,13 +132,16 @@ p{
 
 /* section yunus */
 .yunus{
-    background-image: url('assets/quote-bg.png');
+    /* background-image: url('assets/quote-bg.png'); */
     padding: 40px 20px 40px 20px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
+}
+.yunus{
+    background-image: url('assets/quote-bg.png');
 }
 
 .yunus > h4{
