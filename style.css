@@ -140,10 +140,11 @@ p{
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
 }
-.yunus{
-    background-image: url('assets/quote-bg.png');
+.yunus-img > img{
+    width: 38px;
+    height: 38px;
+    position: absolute;
 }
-
 .yunus > h4{
     margin:8px 0px ;
 }
