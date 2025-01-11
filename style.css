@@ -308,8 +308,16 @@ th{
     margin: 20px 300px auto;
 }
 .img-logo{
-    margin: 20px 0px;
+    margin: 20px;
 }
-.img-logo > a {
+.img-btn{
     margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+}
+.img-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+    
 }
