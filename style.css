@@ -262,19 +262,30 @@ th{
     padding: 20px 40px 20px 40px;
     border-radius: 8px 0px 0px 8px;
 }
-.subscribe-btn{
+.btn-subscribe{
     width: 120px;
     height: 40px;
     border: none;
     border-radius: 0px 8px 8px 0px;
-    background: #006A50;
+    color: white;
+    background-color: #006A50;
     padding: 0px 15px;
     margin-left: -5px;
-    text-align: center;
-    align-items: center;
 }
-/* .input-box{
-    align-items: center;
-    justify-content: center;
-    gap: 0px;
-} */
+
+/* footer section */
+.footer-section > h3{
+    font-size: 24px;
+    font: bold;
+    margin: 40px 0px;
+}
+.footer-section > hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 20px 300px auto;
+}
+.img-logo{
+    margin: 20px 0px;
+}
+.img-logo > a {
+    margin: 0px 10px;
+}
